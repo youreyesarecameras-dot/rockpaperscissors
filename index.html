@@ -33,6 +33,29 @@
       font-size: 32px;
       font-weight: bold;
     }
+
+    .link-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 50px;
+    }
+
+    .link-buttons a {
+      text-decoration: none;
+    }
+
+    .link-buttons button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      background-color: #e0e0e0;
+      border: 1px solid #ccc;
+    }
+
+    .link-buttons button:hover {
+      background-color: #d0d0d0;
+    }
   </style>
 </head>
 <body>
@@ -54,6 +77,24 @@
   </div>
 
   <div id="result"></div>
+
+  <div class="link-buttons">
+    <a href="https://en.wikipedia.org/wiki/Rock_(geology)" target="_blank">
+      <button>Learn More About Rock</button>
+    </a>
+
+    <a href="https://en.wikipedia.org/wiki/Paper" target="_blank">
+      <button>Learn More About Paper</button>
+    </a>
+
+    <a href="https://en.wikipedia.org/wiki/Scissors" target="_blank">
+      <button>Learn More About Scissors</button>
+    </a>
+
+    <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors" target="_blank">
+      <button>Learn More About Rock Paper Scissors</button>
+    </a>
+  </div>
 
   <script>
     function playGame() {
