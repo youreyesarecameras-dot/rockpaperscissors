@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Luck Game</title>
+  <title>Rock Paper Scissors</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -41,15 +41,15 @@
 
   <div class="button-container">
     <button onclick="playGame()">
-      <img src="image1.png" alt="Button 1">
+      <img src="https://i.imgur.com/bb0Ffh4.png" alt="Button 1">
     </button>
 
     <button onclick="playGame()">
-      <img src="image2.png" alt="Button 2">
+      <img src="https://i.imgur.com/q18m5se.png" alt="Button 2">
     </button>
 
     <button onclick="playGame()">
-      <img src="image3.png" alt="Button 3">
+      <img src="https://i.imgur.com/RLCjO2e.png" alt="Button 3">
     </button>
   </div>
 
@@ -63,9 +63,9 @@
       const resultText = document.getElementById("result");
 
       if (randomNumber === 0) {
-        resultText.textContent = "🎉 You win!";
+        resultText.textContent = "You Win";
       } else {
-        resultText.textContent = "❌ You lose";
+        resultText.textContent = "You Lose";
       }
     }
   </script>
