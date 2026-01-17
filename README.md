@@ -37,7 +37,7 @@
 </head>
 <body>
 
-  <h1>Pick a Button</h1>
+  <h1>Choose Wisely</h1>
 
   <div class="button-container">
     <button onclick="playGame()">
